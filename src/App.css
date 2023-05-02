@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #223a5f;
+  height: 100vh;
+  display: flex;
+}
+
+.container2 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.ul-container {
+  list-style-type: none;
+  padding-left: 0px;
+  color: #ffffff;
+}
+
+.score-container {
+  width: 120px;
+  background-color: #ffffff;
+  display: flex;
+  border-radius: 10px;
+  border: none;
+  flex-direction: column;
+  align-items: center;
+  height: 90px;
+}
+
+.score-para {
+  margin-bottom: 0px;
+}
+.score-heading {
+  margin-top: 0px;
+  font-family: 'roboto';
+}
+
+.upper-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.second-upper-container {
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.result-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.result {
+  font-family: 'roboto';
+  color: #ffffff;
+  font-size: 20px;
+}
+.my-self {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.opponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headings {
+  font-family: 'roboto';
+  color: #ffffff;
+}
+
+.first-container {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.second-container {
+  list-style-type: none;
+  padding-left: 0;
+}
+.img1 {
+  width: 150px;
+}
+
+.btns {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.my-choice {
+  width: 150px;
+}
+
+.opponent-choice {
+  width: 150px;
+}
+
+.play-again {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'bree serif';
+  cursor: pointer;
+}
+
+.rules-btn {
+  align-self: flex-end;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'bree serif';
+  cursor: pointer;
+}
+.rules-container {
+  background-color: #ffffff;
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.close-btn {
+  cursor: pointer;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  width: 20px;
+  height: 20px;
+}
+.pop-up-img {
+  width: 500px;
+}
